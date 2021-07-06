@@ -42,6 +42,6 @@ let Enemic = sprites.create(img`
     b b c c c d d d 5 5 5 5 5 d b . 
     . . . . c c d d d 5 5 5 b b . . 
     . . . . . . c c c c c b b . . . 
-    `, SpriteKind.Player)
+    `, SpriteKind.Enemy)
 Enemic.setPosition(157, 101)
 Enemic.follow(Persona, 50)
